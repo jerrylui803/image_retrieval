@@ -18,4 +18,5 @@ or
 IMAGE_FILE is the name of the image file that we compare all other files to. The -d option provides the name of the directory, where we search for similar images. This option is optional and the program will simply search the current working directory if it is not provided. When completed the program should look for images in all the sub-directories of DIR_NAME and find the one that is most similar to IMAGE_FILE. 
 
 Example command to run the program with test files in the folder:
+
 ./one_process -d test/ to_be_compard.ppm 
